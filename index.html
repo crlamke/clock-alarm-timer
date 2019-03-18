@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Clock with Alarm and Timer</title>
+
+		<!-- The main CSS file -->
+		<link href="assets/css/style.css" rel="stylesheet" />
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div id="clock" class="light">
+			<div class="display">
+				<div class="weekdays"></div>
+				<div class="ampm"></div>
+				<div class="alarm"></div>
+				<div class="digits"></div>
+			</div>
+		</div>
+
+		<div class="button-holder">
+			<a class="theme-button" title="Change Theme"></a>
+			<a class="alarm-button" title="Set/Clear Alarms"></a>
+			<a class="about-button" title="About Clock"></a>
+		</div>
+
+		<!-- The dialog is hidden with css -->
+		<div class="overlay">
+
+			<div id="alarm-dialog">
+
+				<h2>Alarm Timer</h2>
+
+				<label class="hours">
+					Hours
+					<input type="number" value="0" min="0" />
+				</label>
+
+				<label class="minutes">
+					Minutes
+					<input type="number" value="0" min="0" />
+				</label>
+
+				<label class="seconds">
+					Seconds
+					<input type="number" value="0" min="0" />
+				</label>
+
+				<div class="button-holder">
+					<a id="alarm-set" class="button set">Set</a>
+					<a id="alarm-clear" class="button clear">Clear</a>
+				</div>
+
+				<a class="close"></a>
+
+			</div>
+
+		</div>
+
+		<div class="overlay">
+
+			<div id="time-is-up">
+
+				<h2>It's time!</h2>
+
+				<div class="button-holder">
+					<a class="button close">Close</a>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="overlay">
+
+			<div id="about-display">
+
+				<h2>About Clock</h2>
+
+				<label class="hours">
+					Hours
+					<input type="number" value="0" min="0" />
+				</label>
+
+				<label class="minutes">
+					Minutes
+					<input type="number" value="0" min="0" />
+				</label>
+
+				<label class="seconds">
+					Seconds
+					<input type="number" value="0" min="0" />
+				</label>
+
+				<a class="close"></a>
+
+			</div>
+
+		</div>
+		
+		
+		<audio id="alarm-ring" preload>
+			<source src="assets/audio/ticktac.mp3" type="audio/mpeg" />
+			<source src="assets/audio/ticktac.ogg" type="audio/ogg" />
+		</audio>
+
+		<!-- JavaScript Includes -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
