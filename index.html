@@ -6,7 +6,9 @@
 		<title>Clock with Alarm and Timer</title>
 
 		<!-- The main CSS file -->
-		<link href="assets/css/style.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		
+		<!-- <script data-main = "js/main" src = "lib/require.js"></script> -->
 
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,7 +17,7 @@
 
 	<body>
 
-		<div id="clock" class="light">
+		<div id="clock" class="green">
 			<div class="display">
 				<div class="weekdays"></div>
 				<div class="ampm"></div>
@@ -25,8 +27,9 @@
 		</div>
 
 		<div class="button-holder">
-			<a class="theme-button" title="Change Theme"></a>
 			<a class="alarm-button" title="Set/Clear Alarms"></a>
+			<a class="theme-button" title="Change Theme"></a>
+			<a class="settings-button" title="View/Adjust Settings"></a>
 			<a class="about-button" title="About Clock"></a>
 		</div>
 
@@ -106,14 +109,14 @@
 		
 		
 		<audio id="alarm-ring" preload>
-			<source src="assets/audio/ticktac.mp3" type="audio/mpeg" />
-			<source src="assets/audio/ticktac.ogg" type="audio/ogg" />
+			<source src="audio/door-chime.mp3" type="audio/mpeg" />
 		</audio>
 
 		<!-- JavaScript Includes -->
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
-		<script src="assets/js/main.js"></script>
+		<script src="lib/jquery.min.js"></script>
+		<script src="lib/moment.min.js"></script>
+		<script src="lib/require.js"></script>
+		<script src="js/main.js"></script>
 
 	</body>
 </html>
