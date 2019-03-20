@@ -1,21 +1,8 @@
-/*-------------------------
-	Simple reset
---------------------------*/
 
-
-*{
-	margin:0;
-	padding:0;
-}
-
-
-/*-------------------------
-	General Styles
---------------------------*/
-
-
+/* Top Level Styles */
 html{
-	background:url('../img/bg.jpg') #dbe4e6;
+	background:url('../img/sunset-sky.jpg') #dbe4e6;
+	background-size:cover;
 	overflow:hidden;
 }
 
@@ -39,11 +26,7 @@ section, footer, header, aside{
 }
 
 
-/*-------------------------
-	The clocks
---------------------------*/
-
-
+/* Clock styles */
 #clock{
 	width:370px;
 	padding:40px;
@@ -61,11 +44,7 @@ section, footer, header, aside{
 }
 
 
-/*-------------------------
-	Light color theme
---------------------------*/
-
-
+/* Clock Light Theme  */
 #clock.light{
 	background-color:#f3f3f3;
 	color:#272e38;
@@ -95,11 +74,7 @@ section, footer, header, aside{
 }
 
 
-/*-------------------------
-	Dark color theme
---------------------------*/
-
-
+/* Clock Dark Theme  */
 #clock.dark{
 	background-color:#272e38;
 	color:#cacaca;
@@ -128,11 +103,8 @@ section, footer, header, aside{
 	background-color:#cacaca;
 }
 
-/*-------------------------
-	Green color theme
---------------------------*/
 
-
+/* Clock Green Theme  */
 #clock.green{
 	background-color:#272e38;
 	color:#cacaca;
@@ -161,11 +133,8 @@ section, footer, header, aside{
 	background-color:#cacaca;
 }
 
-/*-------------------------
-	Red color theme
---------------------------*/
 
-
+/* Clock Red Theme  */
 #clock.red{
 	background-color:#272e38;
 	color:#cacaca;
@@ -194,11 +163,8 @@ section, footer, header, aside{
 	background-color:#cacaca;
 }
 
-/*-------------------------
-	The Digits
---------------------------*/
 
-
+/* Clock Digits  */
 #clock .digits div{
 	text-align:left;
 	position:relative;
@@ -254,16 +220,13 @@ section, footer, header, aside{
 #clock .digits .d7:before{	border-width:0 0 5px 5px;border-bottom-color:inherit;top:-5px;}
 #clock .digits .d7:after{	border-width:5px 0 0 5px;border-top-color:inherit;bottom:-5px;}
 
-
 /* 1 */
-
 #clock .digits div.one .d5,
 #clock .digits div.one .d7{
 	opacity:1;
 }
 
 /* 2 */
-
 #clock .digits div.two .d1,
 #clock .digits div.two .d5,
 #clock .digits div.two .d2,
@@ -273,7 +236,6 @@ section, footer, header, aside{
 }
 
 /* 3 */
-
 #clock .digits div.three .d1,
 #clock .digits div.three .d5,
 #clock .digits div.three .d2,
@@ -283,7 +245,6 @@ section, footer, header, aside{
 }
 
 /* 4 */
-
 #clock .digits div.four .d5,
 #clock .digits div.four .d2,
 #clock .digits div.four .d4,
@@ -292,7 +253,6 @@ section, footer, header, aside{
 }
 
 /* 5 */
-
 #clock .digits div.five .d1,
 #clock .digits div.five .d2,
 #clock .digits div.five .d4,
@@ -302,7 +262,6 @@ section, footer, header, aside{
 }
 
 /* 6 */
-
 #clock .digits div.six .d1,
 #clock .digits div.six .d2,
 #clock .digits div.six .d4,
@@ -312,9 +271,7 @@ section, footer, header, aside{
 	opacity:1;
 }
 
-
 /* 7 */
-
 #clock .digits div.seven .d1,
 #clock .digits div.seven .d5,
 #clock .digits div.seven .d7{
@@ -322,7 +279,6 @@ section, footer, header, aside{
 }
 
 /* 8 */
-
 #clock .digits div.eight .d1,
 #clock .digits div.eight .d2,
 #clock .digits div.eight .d3,
@@ -334,7 +290,6 @@ section, footer, header, aside{
 }
 
 /* 9 */
-
 #clock .digits div.nine .d1,
 #clock .digits div.nine .d2,
 #clock .digits div.nine .d3,
@@ -345,7 +300,6 @@ section, footer, header, aside{
 }
 
 /* 0 */
-
 #clock .digits div.zero .d1,
 #clock .digits div.zero .d3,
 #clock .digits div.zero .d4,
@@ -356,8 +310,7 @@ section, footer, header, aside{
 }
 
 
-/* The dots */
-
+/* Clock Dots */
 #clock .digits div.dots{
 	width:5px;
 }
@@ -377,11 +330,7 @@ section, footer, header, aside{
 }
 
 
-/*-------------------------
-	The Alarm
---------------------------*/
-
-
+/* Clock Alarm */
 #clock .alarm{
 	width:16px;
 	height:16px;
@@ -396,11 +345,7 @@ section, footer, header, aside{
 }
 
 
-/*-------------------------
-	Weekdays
---------------------------*/
-
-
+/* Clock Days of Week */
 #clock .weekdays{
 	font-size:12px;
 	position:absolute;
@@ -409,7 +354,6 @@ section, footer, header, aside{
 	left:0;
 	text-align:center;
 }
-
 
 #clock .weekdays span{
 	opacity:0.2;
@@ -421,11 +365,7 @@ section, footer, header, aside{
 }
 
 
-/*-------------------------
-		AM/PM
---------------------------*/
-
-
+/* Clock AM/PM */
 #clock .ampm{
 	position:absolute;
 	bottom:20px;
@@ -434,35 +374,24 @@ section, footer, header, aside{
 }
 
 
-/*-------------------------
-		Button
---------------------------*/
-
-
+/* Buttons */
 .button-holder{
 	text-align:center;
 	margin-top:-30px;
-	padding-bottom:100px;
+	/*padding-bottom:100px;*/
+	/*background-color:#e2e0e1;*/
 }
 
 a.button{
 	background-color:#f6a7b3;
-/*	
-	background-image:-webkit-linear-gradient(top, #f6a7b3, #f0a3af);
-	background-image:-moz-linear-gradient(top, #f6a7b3, #f0a3af);
-	background-image:linear-gradient(top, #f6a7b3, #f0a3af);
-*/
 	border:1px solid #eb9ba7;
 	border-radius:2px;
-
 	box-shadow:0 2px 2px #ccc;
-
 	color:#fff;
 	text-decoration: none !important;
 	padding:15px 20px;
 	display:inline-block;
 	cursor:pointer;
-
 	position:relative;
 	z-index: 1;
 }
@@ -478,12 +407,11 @@ a.button:hover{
 	margin-left: 6px;
 	margin-right: 6px;
 	display: inline-block;
-	background: url('../img/twotone_looks_black_18dp.png');
+	background: url('../img/twotone_color_lens_black_18dp.png');
 	position: relative;
 	z-index: 0;
 	cursor: pointer;
 }
-
 
 .alarm-button{
 	width: 36px;
@@ -493,6 +421,19 @@ a.button:hover{
 	margin-right: 6px;
 	display: inline-block;
 	background: url('../img/twotone_alarm_black_18dp.png');
+	position: relative;
+	z-index: 0;
+	cursor: pointer;
+}
+
+.settings-button{
+	width: 36px;
+	height: 36px;
+	vertical-align: middle;
+	margin-left: 6px;
+	margin-right: 6px;
+	display: inline-block;
+	background: url('../img/twotone_settings_black_18dp.png');
 	position: relative;
 	z-index: 0;
 	cursor: pointer;
@@ -511,18 +452,7 @@ a.button:hover{
 	cursor: pointer;
 }
 
-/*-------------------------
-	Alarm Dialog
---------------------------*/
-
-
-/* Hide the arrows dispayed in number inputs in webkit */
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    display: none;
-}
-
+/* Alarm Dialog */
 .overlay{
 	display:none;
 	position:fixed;
@@ -552,18 +482,18 @@ input::-webkit-inner-spin-button {
 	text-transform: uppercase;
 	font-size:18px;
 	color:#5e6268;
-	padding: 15px 0;
+	padding: 10px 0px 5px 0px;
 }
 
 #alarm-dialog label{
 	text-transform: uppercase;
 	background-color: #f4f4f4;
 	width: 80px;
-	height: 62px;
+	height: 50px;
 	font-size: 11px;
 	display: inline-block;
 	padding: 10px;
-	margin: 4px;
+	margin: 0px 0px 0px 0px;	
 }
 
 #alarm-dialog label input{
@@ -599,7 +529,6 @@ input::-webkit-inner-spin-button {
 	background-color:#df4f4f ;
 	border-color:#72c1d2;
 }
-
 
 #alarm-dialog .close{
 	width: 36px;
