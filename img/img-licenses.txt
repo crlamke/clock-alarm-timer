@@ -1,0 +1,13 @@
+The image files included in this app are licensed as follows.
+
+grassfull.jpg was downloaded from https://opengameart.org/node/7329 and in the public domain.
+francegrassfull.jpg was downloaded from https://opengameart.org/node/7526 and in the public domain.
+bg.jpg, alarm_dark.jpg, alarm_light.jpg, and close.png were taken from the project at https://tutorialzine.com/2013/06/digital-clock-adding-alarms
+twotone_alarm_black_18dp.png, twotone_contact_support_black_18dp.png, twotone_settings_black_18dp.png, twotone_color_lens_black_18dp, and twotone_looks_black_18dp.png were downloaded from https://material.io/tools/icons/?icon=contact_support&style=twotone and are licensed under Apache 2.0.
+
+sky-background.jpg was downloaded from https://www.publicdomainpictures.net/en/view-image.php?image=32642&picture=sky-background and in the public domain.
+white-beach-and-blue-sky.jpg was downloaded from https://www.publicdomainpictures.net/en/view-image.php?image=22091&picture=white-beach-and-blue-sky and in the public domain.
+grass-with-blue-sky.jpg was downloaded from https://www.publicdomainpictures.net/en/view-image.php?image=2508&picture=grass-with-blue-sky and in the public domain.
+grass-and-sky.jpg was downloaded from https://www.publicdomainpictures.net/en/view-image.php?image=58551&picture=grass-and-sky and in the public domain.
+sunset-sky.jpg was downloaded from https://www.publicdomainpictures.net/en/view-image.php?image=149319&picture=sunset-sky and in the public domain.
+clouds-above-the-sky.jpg was downloaded from https://www.publicdomainpictures.net/en/view-image.php?image=50613&picture=clouds-above-the-sky-3 and in the public domain.
