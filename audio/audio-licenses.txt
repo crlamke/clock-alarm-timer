@@ -1,0 +1,5 @@
+The audio files included in this app are licensed as follows.
+
+zen-temple-bell.mp3 was downloaded from http://soundbible.com/1477-Zen-Temple-Bell.html and licensed CC Attribution 3.0 - https://creativecommons.org/licenses/by/3.0/us/.
+door-chime.mp3 was downloaded from http://soundbible.com/1599-Store-Door-Chime.html and licensed CC Attribution 3.0 - https://creativecommons.org/licenses/by/3.0/us/.
+ship-bell.mp3 was downloaded from http://soundbible.com/1746-Ship-Bell.html and licensed CC Attribution 3.0 - https://creativecommons.org/licenses/by/3.0/us/.
