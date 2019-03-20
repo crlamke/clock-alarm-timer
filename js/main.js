@@ -11,6 +11,8 @@ $(function(){
 		alarmClear = $('#alarm-clear'),
 		alarmTime = $('#time-is-up').parent();
 
+	/*var appConfig = require('../clock-config.json');*/
+	
 	// This will hold the number of seconds left
 	// until the alarm should go off
 	var alarmCounter = -1;
@@ -32,8 +34,13 @@ $(function(){
 	var digitHolder = clock.find('.digits');
 	
 	// Start with the dark theme. Keep track of current theme.
-	var currentTheme = 'light';
-	
+	/*var currentTheme = appConfig.theme;*/
+	var currentTheme = 'green';
+
+	/*var appBackground = appConfig.background;
+	document.body.style.backgroundImage = "url('../img/white-beach-and-blue-sky.jpg')";
+	*/
+		
 	$.each(positions, function(){
 
 		if(this == ':'){
